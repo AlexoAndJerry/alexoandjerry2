@@ -8,22 +8,34 @@
 
   </head>
   <body>
+    <header>
+     
+    <a href="#"><img src="img/z.png" alt=""></a>
+    </header>
 
     <div class="login-box">
-      <img src="img/3.gif" class="avatar" >
+      <img src="img/ltesci.jpg" class="avatar" >
       <h1>Bienvenido</h1>
       <form  method="post"  action="Bienvenido.php">
      
-        <label >Usuario</label>
-        <input type="text" name="nombre" required >
+        
+        
+        <input type="text"  placeholder="&#9865; usuario" name="nombre" required >
     
-        <label  >Password</label>
-        <input type="password" name="contra" required>
+        
+        <input type="password" placeholder="&#128065; contraseña" name="contra" required>
         <input type="submit" value="Aceptar" >
         <a href="#">Olvidaste tu contraseña</a><br>
         <a href="#">Aun no estas inscrito</a>
+        
+          
+    
+     
+
    
       </form>
+
     </div>
+    <img src="img/p.png" id ="fondo">
   </body>
 </html>

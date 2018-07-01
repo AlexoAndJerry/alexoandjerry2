@@ -1,23 +1,60 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../img/1.jpg) no-repeat center top;
+  
   background-size: cover;
   font-family: sans-serif;
   height: 100vh;
 }
+form{
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  
+  padding: -0px;
+  border: 0px solid rgba(0,0,0,0);
+
+
+}
+
+header{
+    width: 100%;
+    height: 100px;  
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+header a img{
+  
+    width: 100%;
+    height: 100px;
+    
+    
+}
+#fondo{
+position: absolute;
+top:100%;
+left:-0%;
+width:100%;
+height: 150px;
+z-index: -1   
+ padding: 0px; 
+
+}
+
+
 
 .login-box {
-  width: 320px;
-  height: 420px;
-  background: #000;
-  color: #fff;
+  width: 310px;
+  height: 410px;
+  background: #424256;
+  color: #black;
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   box-sizing: border-box;
-  padding: 70px 30px;
+  padding: 50px 50px;
 }
 
 .login-box .avatar {
@@ -30,6 +67,7 @@ body {
 }
 
 .login-box h1 {
+  color: #black;
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
@@ -37,6 +75,7 @@ body {
 }
 
 .login-box label {
+  color: #black;
   margin: 0;
   padding: 0;
   font-weight: bold;
@@ -44,8 +83,12 @@ body {
 }
 
 .login-box input {
+
+  display: block;
+  padding: 10px;
   width: 100%;
-  margin-bottom: 20px;
+  margin: 30px 0;
+  font-size: 20px;
 }
 
 .login-box input[type="text"], .login-box input[type="password"] {
@@ -59,19 +102,17 @@ body {
 }
 
 .login-box input[type="submit"] {
-  border: none;
-  outline: none;
-  height: 40px;
-  background: #b80f22;
-  color: #fff;
-  font-size: 18px;
-  border-radius: 20px;
+background: #33FF7A;
+   border: 0;
+   color: black;
+   opacity: 0.8;
+   cursor: pointer;
+   border-radius: 20px;
+   margin-bottom: 0;
 }
 
 .login-box input[type="submit"]:hover {
-  cursor: pointer;
-  background: #6b2a2a;
-  color: #000;
+ opacity: 1;
   
 }
 
@@ -85,3 +126,8 @@ body {
 .login-box a:hover {
   color: #fff;
 }
+@media (max-width: 480px){
+form{
+    width: 95%;
+  }
+  }

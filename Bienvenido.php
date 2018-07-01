@@ -104,7 +104,7 @@ nav ul li a:hover {
 $db_host="localhost";
 $db_nombre="AlexoAndGr";
 $db_usuario="root";
-$db_contra="";
+$db_contra="27072707";
 //DECLARAS LA CONEXION
 $conexion=mysqli_connect($db_host,$db_usuario,$db_contra,$db_nombre);
 
@@ -144,42 +144,33 @@ setTimeout("redireccionarPagina()", 2000);
    <nav>
 
 <ul>
-    <li><a title="Opcion 1" href="#">Opción 1</a></li>
-    <li><a title="Opcion 2" href="#">Opción 2</a></li>
-    <li><a title="Opcion 3" href="#">Opción 3</a></li>
-    <li><a title="Opcion 4" href="#">Opción 4</a></li>
-    <li><a title="Opcion 5" href="#">Opción 5</a></li>
+    <li><a title="AGREGAR USUARIOS" href="Usuarios.php">USUARIOS</a></li>
+    <li><a title="AGREGAR MENU USUARIO" href="#">AGREGAR </a></li>
+    <li><a title="INFORMACION GENERAL" href="#">INFORMACION </a></li>
+    <li><a title="SOLO ADMINISTRADORES" href="#"> ADMINISTRADORES</a></li>
+    <li><a title="SALIR" href="index.php">SALIR</a></li>
 </ul>
 </nav>
-    <section>      
+    <section style="font-style: italic; color:#FFF;"  >      
       <article>
-        <h2>CONTENIDO PRINCIPAL</h2>
-        <p>Este es el contenido principal de mi web</p>
+        <h2>Hola</h2>
+        <p>........</p>
         <div>
-          <p>Aquí tenéis una imagen.</p>
-          <img src="http://dominio.com/imagen.jpg" alt="paisaje">          
+          <p>...................................</p>
+          <img src="img/10.gif" alt="paisaje">          
         </div>
       </article>      
     </section>
-    <aside>
-      <h3>Banner de publicidad</h3>
-      <a href="http://dominio-externo.com">
-        <img src="http://dominio.com/banner-publicidad.png" alt="banner de publicidad">
-      </a>
-      <h3>Testimonios</h3>
-      <p>Me gusta mucho esta página.</p>
-    </aside>
-    <footer>
-      <h4>Avisos legales</h4>
-      <a href="http://dominio.com/aviso-legal">Política de cookies</a>
-      <h4>Redes sociales</h4>
-      <a href="http://facebook.com/mi-pagina-de-facebook">Mi Facebook</a>
-    </footer>
 
+   <!-- <footer>
+      <h4>DERECHOS RESERVADOS ALEXO  Y GERARDO</h4>
+      
+    </footer>
+-->
 
 <?php
 
-echo $fila[1];
+//echo $fila[1];
 
 }
 
