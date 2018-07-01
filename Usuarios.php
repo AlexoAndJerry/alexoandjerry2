@@ -37,7 +37,7 @@ if ($fila==null) {?>
 function redireccionarPagina() {
   window.location = "index.php";
 }
-setTimeout("redireccionarPagina()", 2000);
+setTimeout("redireccionarPagina()", 3000);
  </script>
 
 

@@ -8,10 +8,7 @@
 
   </head>
   <body>
-    <header>
-     
-    <a href="#"><img src="img/z.png" alt=""></a>
-    </header>
+    <header><a href="#"><img src="img/z.png" alt=""></a></header>
 
     <div class="login-box">
       <img src="img/ltesci.jpg" class="avatar" >
@@ -36,6 +33,8 @@
       </form>
 
     </div>
+
     <img src="img/p.png" id ="fondo">
+  
   </body>
 </html>
